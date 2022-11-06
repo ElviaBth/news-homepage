@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link href='https://css.gg/menu.css' rel='stylesheet'>
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | News homepage</title>
@@ -12,9 +12,10 @@
 <body>
   <header class="header">
     <figure class="logo">
-      <img src="./assets/images/logo.svg" alt="logo">
+      <img class="logo" src="./assets/images/logo.svg" alt="logo">
     </figure>
     <nav class="nav">
+      <i class="gg-menu"></i>
       <ul class="navbar">
         <li>Home</li>
         <li>New</li>
@@ -25,60 +26,57 @@
     </nav> 
   </header> 
   
+
   <main class="main">
     <section class="mainSection1">
       <figure class="mainImage">
-        <img class= "mainImage" src="./assets/images/image-web-3-desktop.jpg" alt="image-web-3-desktop">
+        <img class="mainImageMobile" src="./assets/images/image-web-3-mobile.jpg" alt="image-web-3-mobile">
+        <img class= "mainImageDesktop" src="./assets/images/image-web-3-desktop.jpg" alt="image-web-3-desktop">
       </figure>
-      <section class="subSection">
-        <h1>The Bright Future of Web 3.0?</h1>
-        <section class="subSubSection">
-          <p class="mainParagraph"> We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+      <h1>The Bright Future of Web 3.0?</h1>
+      <p class="initialParagraph"> We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
             But is it really fulfilling its promise?</p>
-          <span class="readMore"><a target="_blank">Read more</a></span>
-        </section>
-      </section>
-      
+      <span class="readMore"><a target="_blank">Read more</a></span>
     </section>
     <section class="mainSection2">
-      <h2>New</h2>
-      <h3>Hydrogen VS Electric Cars</h3>
-      <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+      <h2 class="mainH2">New</h2>
+      <h3 class="mainH3">Hydrogen VS Electric Cars</h3>
+      <p class="section2P">Will hydrogen-fueled cars ever catch up to EVs?</p>
       <hr>
-      <h3>The Downsides of AI Artistry</h3>
-      <p>What are the possible adverse effects of on-demand AI image generation?</p>
+      <h3 class="mainH3">The Downsides of AI Artistry</h3>
+      <p class="section2P">What are the possible adverse effects of on-demand AI image generation?</p>
       <hr>
-      <h3>Is VC Funding Drying Up?</h3>
-      <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+      <h3 class="mainH3">Is VC Funding Drying Up?</h3>
+      <p class="section2P">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
     </section>
   </main>
 
   <footer class="footer">
-  <figure class="img01">
-    <img src="./assets/images/image-retro-pcs.jpg" alt="image-retro-pcs">
+    <figure class="img01">
+    <img class="footerImg" src="./assets/images/image-retro-pcs.jpg" alt="image-retro-pcs">
     <section class="footerSection1">
-      <h2>01</h2>
-      <h3>Reviving Retro PCs</h3>
+      <h2 class="footerH2">01</h2>
+      <h4>Reviving Retro PCs</h4>
       <p>What happens when old PCs are given modern upgrades?</p>
     </section>
-  </figure>
+    </figure>
   
 
     <figure class="img02">
-      <img src="./assets/images/image-top-laptops.jpg" alt="image-top-laptops">
+      <img class="footerImg" src="./assets/images/image-top-laptops.jpg" alt="image-top-laptops">
       <section class="footerSection2">
-        <h2>02</h2>
-        <h3>Top 10 Laptops of 2022</h3>
+        <h2 class="footerH2">02</h2>
+        <h4>Top 10 Laptops of 2022</h4>
         <p>Our best picks for various needs and budgets.</p>
       </section>
     </figure>
     
 
     <figure class="img03">
-      <img src="./assets/images/image-gaming-growth.jpg" alt="image-gaming-growth">
+      <img class="footerImg" src="./assets/images/image-gaming-growth.jpg" alt="image-gaming-growth">
       <section class="footerSection3">
-        <h2>03</h2>
-        <h3>The Growth of Gaming</h3>
+        <h2 class="footerH2">03</h2>
+        <h4>The Growth of Gaming</h4>
         <p>How the pandemic has sparked fresh opportunities.</p>
       </section>
     </figure>
