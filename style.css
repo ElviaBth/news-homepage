@@ -32,6 +32,10 @@ body{
     display: none;
 }
 
+li{
+    list-style: none;
+}
+
 .gg-menu {
     transform: scale(var(--ggs,1))
    }
