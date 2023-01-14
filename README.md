@@ -1,4 +1,5 @@
  News homepage
-https://elviabth.github.io/news-homepage/
-https://news-homepage-elviabth-six.vercel.app/
+
+* [link with gh-pages](https://elviabth.github.io/news-homepage/)
+* [Link wit vercel](https://news-homepage-elviabth-six.vercel.app/)
 
