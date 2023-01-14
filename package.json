@@ -6,10 +6,6 @@
   "scripts": {
     "deploy": "gh-pages -d dist"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ElviaBth/news-homepage.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
