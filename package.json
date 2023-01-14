@@ -13,10 +13,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ElviaBth/news-homepage/issues"
-  },
-  "homepage": "https://github.com/ElviaBth/news-homepage",
+  "homepage": "https://ElviaBth.github.io/news-homepage",
   "dependencies": {
     "gh-pages": "^4.0.0"
   }
